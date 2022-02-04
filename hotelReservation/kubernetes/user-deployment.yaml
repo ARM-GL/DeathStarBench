@@ -28,7 +28,7 @@ spec:
       containers:
         - command:
             - user
-          image: igorrudyk1/hotel_reserv_user_single_node:latest
+          image: igorrudyk1/hotel_reserv_user_single_node:arm64
           name: hotel-reserv-user
           ports:
             - containerPort: 8086

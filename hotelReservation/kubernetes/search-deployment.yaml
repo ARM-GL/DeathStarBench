@@ -28,7 +28,7 @@ spec:
       containers:
         - command:
             - search
-          image: igorrudyk1/hotel_reserv_search_single_node:latest
+          image: igorrudyk1/hotel_reserv_search_single_node:arm64
           name: hotel-reserv-search
           ports:
             - containerPort: 8082

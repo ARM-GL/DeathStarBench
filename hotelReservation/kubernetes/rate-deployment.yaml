@@ -28,7 +28,7 @@ spec:
       containers:
         - command:
             - rate
-          image: igorrudyk1/hotel_reserv_rate_single_node:latest
+          image: igorrudyk1/hotel_reserv_rate_single_node:arm64
           name: hotel-reserv-rate
           ports:
             - containerPort: 8084

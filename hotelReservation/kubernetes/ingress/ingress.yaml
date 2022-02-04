@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: micro-ingress
+  namespace: default
+  annotations:
+    kubernetes.io/ingress.class: nginx
+spec:
+  rules:
+    - host: eks-x86.arm-gl.net
+      http:
+        paths:
+          - backend:
+              serviceName: frontend
+              servicePort: 5000

@@ -28,7 +28,7 @@ spec:
       containers:
         - command:
             - reservation
-          image: igorrudyk1/hotel_reserv_reserve_single_node:latest
+          image: igorrudyk1/hotel_reserv_reserve_single_node:arm64
           name: hotel-reserv-reservation
           ports:
             - containerPort: 8087
